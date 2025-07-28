@@ -47,8 +47,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3rem;
     list-style: none;
+}
+@media (min-width: 768px) {
+    .nav-menu {
+        gap: 3rem;
+    }
+    
 }
 
 .nav-link {
@@ -261,11 +266,16 @@ footer{
 .contenido-footer {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
     color: #110f29;
      background-color: transparent;
+}
+@media (min-width: 768px) {
+    .contenido-footer {
+        flex-direction: row;
+    }
 }
 .h1-index{
     background-color: #ffcd35;
