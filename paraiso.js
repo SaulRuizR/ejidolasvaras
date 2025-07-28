@@ -1,0 +1,36 @@
+// Datos para el ejido El Paraíso
+let propiedades = [
+    {
+      posesionario: "Juan Carlos Perez Lopez",
+      manzanaRAN: "P-01",
+      solarRAN: "12",
+      manzanaEjido: "P-25",
+      solarEjido: "01",
+      superficie: "2500 m2",
+      ubicacion: "Zona Norte Paraíso",
+      direccion: "Camino Real #1",
+      estatus: "Terminado",
+    },
+    {
+      posesionario: "Maria Elena Gonzalez",
+      manzanaRAN: "P-01",
+      solarRAN: "13",
+      manzanaEjido: "P-25",
+      solarEjido: "02",
+      superficie: "2500 m2",
+      ubicacion: "Zona Norte Paraíso",
+      direccion: "Camino Real #2",
+      estatus: "En proceso",
+    },
+    {
+      posesionario: "Pedro Ramirez Sanchez",
+      manzanaRAN: "P-02",
+      solarRAN: "05",
+      manzanaEjido: "P-30",
+      solarEjido: "11",
+      superficie: "3000 m2",
+      ubicacion: "Zona Sur Paraíso",
+      direccion: "Calle Olivos #150",
+      estatus: "Privado",
+    },
+];

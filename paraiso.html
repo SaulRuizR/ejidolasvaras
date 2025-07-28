@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="description" content="Catálogo de granjas ejidales de la Zona 6 comprendidas con las colonias de Las Delicias y El Paraíso. Las Varas, Saucillo Chihuahua" />
+    <meta charset="UTF-8" />
+    <title>Ejido Las Varas - El Paraíso</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="contenedor">
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-branding">Ejido Las Varas</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="delicias.html" class="nav-link">Las Delicias</a>
+                </li>
+                <li class="nav-item">
+                    <a href="paraiso.html" class="nav-link">El Paraíso</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ejidales.html" class="nav-link">Ejidales</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Propiedades en "El Paraíso"</h1>
+        <div class="wrapper">
+            <div id="search-container">
+                <input type="search" class="search-input" id="search-input-name" placeholder="Buscar por nombre del posesionario..." />
+                <input type="search" class="search-input" id="search-input-manzana" placeholder="Buscar por Manzana Ejidal..." />
+                <button id="search">Buscar</button>
+            </div>
+            <div id="products"></div>
+        </div>
+    </main>
+    <footer class="contenedor">
+        <div class="contenido-footer">
+            <p>© 2025 Ejido Las Varas. Todos los derechos reservados.</p>
+            <p>Desarrollado por: Ing. Saúl Alberto Ruiz Ruvalcaba</p>
+        </div> 
+    </footer>
+    <!-- Scripts de datos y lógica -->
+    <script src="paraiso.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
