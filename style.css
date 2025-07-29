@@ -177,6 +177,9 @@ h1 {
     font-weight: 500;
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    background-color: #f4f5ff;
+    padding: 0.5rem;
+    border-radius: 10px;
 }
 
 .card .container p {

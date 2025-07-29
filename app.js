@@ -86,11 +86,6 @@ document.addEventListener("DOMContentLoaded", () => {
             direccion.innerHTML = `<strong>Dirección:</strong> ${item.direccion || "No disponible"}`;
             container.appendChild(direccion);
 
-            let estatus = document.createElement("h6");
-            estatus.innerText = item.estatus;
-            estatus.classList.add("status", item.estatus.toLowerCase().replace(" ", "-"));
-            container.appendChild(estatus);
-
             card.appendChild(container);
             productsContainer.appendChild(card);
         }
